@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="LuminApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LuminApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    >
+
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Lumin SOCD" Margin="10" FontSize="24" FontWeight="Medium"/>
+        <!-- -->
+        <RadioButton x:Name="wasdRadio" Margin="5" Content="WASD" IsChecked="True" Checked="OnKeybindingChanged"/>
+        <RadioButton x:Name="arrowsRadio" Margin="5" Content="Arrows" Checked="OnKeybindingChanged"/>
+        <RadioButton x:Name="customRadio" Margin="5" Content="Custom" Checked="OnKeybindingChanged"/>
+        <!-- -->
+        <HyperlinkButton Content="Source Code" NavigateUri="https://github.com/kotlinsyntax/socd"/>
+    </StackPanel>
+</Window>
