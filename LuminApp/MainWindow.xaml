@@ -16,6 +16,6 @@
         <RadioButton x:Name="arrowsRadio" Margin="5" Content="Arrows" Checked="OnKeybindingChanged"/>
         <RadioButton x:Name="customRadio" Margin="5" Content="Custom" Checked="OnKeybindingChanged"/>
         <!-- -->
-        <HyperlinkButton Content="Source Code" NavigateUri="https://github.com/kotlinsyntax/socd"/>
+        <HyperlinkButton Content="Source Code" NavigateUri="https://github.com/kotlinsyntax/LuminSOCD"/>
     </StackPanel>
 </Window>
